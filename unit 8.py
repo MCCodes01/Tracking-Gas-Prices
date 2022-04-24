@@ -1,10 +1,3 @@
-#######################################################
-# Name:       Michael Cunningham
-# Class:      CIS-2531-VCM01
-# Assignment: Homework 8
-# Instructor: Mohammad Morovati
-# Purpose:    reading/sorting Gas Prices
-######################################################
 import pandas as pd 
 
 data = pd.read_csv('GasPrice.txt', sep=":", header=None, names=["Dates", "Price"])
